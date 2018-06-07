@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+img
+{
+  outline-width:0px;
+  vertical-align:top;
+}
+li {
+	list-style: none;
+}
+.h3{
+	color: #FB4E7E;
+	display: block;
+	font-size: 24px;
+	vertical-align: middle;
+	height: 25px;
+	line-height: 25px;
+}
+.h3sp{
+	display: block;
+	width: 3px;
+	height: 25px;
+	background-color: #FB4E7E;
+	float: left;
+	margin-right: 20px;
+	
+}
